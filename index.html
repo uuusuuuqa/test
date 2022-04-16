@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Document</title>
 </head>
 <body>
     <section class="header">
-        <div class="row">
-            <div class="logo">
-                <img src="" alt="">
+        <div class="row jc-sb">
+            <div class="header-logo">
+                <img src="/image/logo.png" alt="">
             </div>
-            <div class="login">
-                <div class="login-avatar"></div>
-                <div class="login-name"></div>
-                <div class="login-action"></div>
+            <div class="header-login">
+                <div class="header-login-avatar"><img src="/image/avatar.png" alt=""></div>
+                <div class="header-login-name">Виктория Беляева</div>
+                <div class="header-login-action">ico</div>
             </div>
         </div>
         <div class="row">
             <div class="breadcrumbs">
                 <div class="breadcrumbs-list">
-                    <div class="breadcrumbs-list-item">Сотрудники</div>
+                    <div class="breadcrumbs-list-item">Сотрудники >&nbsp;</div>
                     <div class="breadcrumbs-list-item">Виктория Беляева, belyaeva@company.name</div>
                 </div>
             </div>
@@ -29,7 +30,7 @@
     </section>
     <section class="work-space">
         <div class="work-space-left">
-            <div class="row">
+            <div class="row jc-c">
                 <div class="finder">
                     <div class="finder-icon"></div>
                     <input type="search" name="" id="" placeholder="Быстрый поиск...">
@@ -38,32 +39,269 @@
             <div class="row">
                 <div class="worker-card">
                     <div class="worker-card-avatar">
-                        <img src="" alt="">
+                        <img src="/image/avatar.png" alt="">
                     </div>
                     <div class="worker-card-info">
                         <div class="worker-card-info-name">Анна Иванова</div>
-                        <div class="worker-card-info-position">Менеджер, Отдел</div>
-                        <div class="worker-card-info-status">На увольнении<div>
+                        <div class="worker-card-info-position">Менеджер, Отдел продаж</div>
+                        <div class="worker-card-info-status">На увольнении</div>
                     </div>
-                    <div class="worker-card-score">
-                        12
-                    </div>
+                    <div class="worker-card-score">12</div>
                 </div>
-            </div>
+                <div class="worker-card">
+                    <div class="worker-card-avatar">
+                        <img src="/image/avatar.png" alt="">
+                    </div>
+                    <div class="worker-card-info">
+                        <div class="worker-card-info-name">Анна Иванова</div>
+                        <div class="worker-card-info-position">Менеджер, Отдел продаж</div>
+                        <div class="worker-card-info-status dismissal">На увольнении</div>
+                    </div>
+                    <div class="worker-card-score">12</div>
+                </div>
+                <div class="worker-card active">
+                    <div class="worker-card-avatar">
+                        <img src="/image/avatar.png" alt="">
+                    </div>
+                    <div class="worker-card-info">
+                        <div class="worker-card-info-name">Анна Иванова</div>
+                        <div class="worker-card-info-position">Менеджер, Отдел продаж</div>
+                        <div class="worker-card-info-status vacation">Отпуск</div>
+                    </div>
+                    <div class="worker-card-score">158</div>
+                </div>
+                <div class="worker-card">
+                    <div class="worker-card-avatar">
+                        <img src="/image/avatar.png" alt="">
+                    </div>
+                    <div class="worker-card-info">
+                        <div class="worker-card-info-name">Анна Иванова</div>
+                        <div class="worker-card-info-position">Менеджер, Отдел продаж</div> 
+                    </div>
+                    <div class="worker-card-score">12</div>
+                </div>
+                <div class="worker-card">
+                    <div class="worker-card-avatar">
+                        <img src="/image/avatar.png" alt="">
+                    </div>
+                    <div class="worker-card-info">
+                        <div class="worker-card-info-name">Анна Иванова</div>
+                        <div class="worker-card-info-position">Менеджер, Отдел продаж</div> 
+                    </div>
+                    <div class="worker-card-score">12</div>
+                </div>
+           </div>
         </div>
+    </div>
         <div class="work-space-right">
             <div class="row">
                 <div class="worker-block">
                     <div class="worker-block-avatar">
-
+                        <img src="/image/avatar.png" alt="">
                     </div>
                     <div class="worker-block-info">
                         <div class="worker-block-info-name">Виктория Беляева</div>
                         <div class="worker-block-info-position">Менеджер, Отдел продаж</div>
                     </div>
                 </div>
+                <div class="status-block">
+                    <div class="row jc-sb">
+                        <div class="status-block-activity">
+                            Последняя активность: <span class="status-block-activity-action">сегодня в 12:22</span>
+                        </div>
+                        <div class="status-block-backlink"> 
+                            <div class="status-block-backlink-text"><a href=""> ← к списку сотрудников</a> </div>
+                        </div>
+                    </div>
+                    <div class="row jc-sb">
+                        <div class="status-block-item">
+                            <div class="status-block-item-label">
+                                Уровень риска
+                            </div>
+                            <div class="row">
+                                <div class="status-block-item-count">
+                                    157
+                                </div>
+                                <div class="status-block-item-value">
+                                    <div class="status-block-item-value-treangle red">↓</div>
+                                    <div class="status-block-item-value-count">100%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status-block-item">
+                            <div class="status-block-item-label">
+                                Продуктивность
+                            </div>
+                            <div class="row">
+                                <div class="status-block-item-count">
+                                    86%
+                                </div>
+                                <div class="status-block-item-value">
+                                    <div class="status-block-item-value-treangle green">↑</div>
+                                    <div class="status-block-item-value-count">3%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status-block-item">
+                            <div class="status-block-item-label">
+                                Индекс активности
+                            </div>
+                            <div class="row">
+                                <div class="status-block-item-count">
+                                    2,4%
+                                </div>
+                                <div class="status-block-item-value">
+                                    <div class="status-block-item-value-treangle red">↓</div>
+                                    <div class="status-block-item-value-count">+14%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status-block-item">
+                            <div class="status-block-item-control">
+                                <div class="status-block-item-control-icon-name1">1</div>
+                                <div class="status-block-item-control-icon-name2">2</div>
+                                <div class="status-block-item-control-icon-name3">3</div>
+                                <div class="status-block-item-control-icon-name4">4</div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="warning-block">
+                <div class="work-space-right-header">
+                    Аномалии
+                </div>
+                <div class="row jc-sb">
+                    <div class="warning-block-item"> 
+                        <div class="warning-block-item-text"><img src="/image/Vector.png" alt="">Использование более одного аккаунта в соцсетях или мессенджерах</div>
+                    </div>
+                    <div class="warning-block-item">
+                        <div class="warning-block-item-text"><img src="/image/Vector.png" alt="">Использование более одного аккаунта в соцсетях или мессенджерах</div>
+                    </div>
+                    <div class="warning-block-item"> 
+                        <div class="warning-block-item-text"><img src="/image/Vector.png" alt="">Использование более одного аккаунта в соцсетях или мессенджерах</div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="basic-indicators">
+                <div class="work-space-right-header">
+                    Основные показатели 
+                </div>
+                <div class="row">
+                    <div class="basic-indicators-data not-found">
+                        <span class="basic-indicators-data-not-found">
+                            Данные не найдены
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row jc-sb">
+            <div class="worker-stats">
+                <div class="work-space-right-header">
+                    Приложения и категории 
+                </div>
+                <div class="row">
+                    <div class="worker-stats-table">
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Категории приложений</div>
+                            <div class="worker-stats-table-cell"><span class="worker-stats-table-marker yellow"></span>Мессенджеры</div>
+                            <div class="worker-stats-table-cell"><span class="worker-stats-table-marker yellow"></span>Браузеры</div>
+                            <div class="worker-stats-table-cell"><span class="worker-stats-table-marker red"></span>Игры</div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Время</div>
+                            <div class="worker-stats-table-cell">20:55</div>
+                            <div class="worker-stats-table-cell">15:11</div>
+                            <div class="worker-stats-table-cell">13:11</div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">%</div>
+                            <div class="worker-stats-table-cell">18</div>
+                            <div class="worker-stats-table-cell">12</div>
+                            <div class="worker-stats-table-cell">7</div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Рост</div>
+                            <div class="worker-stats-table-cell">+2%</div>
+                            <div class="worker-stats-table-cell">-3%</div>
+                            <div class="worker-stats-table-cell">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="worker-stats">
+                <div class="work-space-right-header">
+                    Сайты и категории 
+                </div>
+                <div class="row">
+                    <div class="worker-stats-table">
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Категории сайтов</div>
+                            <div class="worker-stats-table-cell"><span class="worker-stats-table-marker red"></span>Поисковики</div>
+                            <div class="worker-stats-table-cell"><span class="worker-stats-table-marker green"></span>Новостные порталы</div>
+                            <div class="worker-stats-table-cell"><span class="worker-stats-table-marker green"></span>Сайты с неопределённым контентом</div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Время</div>
+                            <div class="worker-stats-table-cell">20:55</div>
+                            <div class="worker-stats-table-cell">15:11</div>
+                            <div class="worker-stats-table-cell">13:11</div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">%</div>
+                            <div class="worker-stats-table-cell">18</div>
+                            <div class="worker-stats-table-cell">12</div>
+                            <div class="worker-stats-table-cell">7</div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Рост</div>
+                            <div class="worker-stats-table-cell">+2%</div>
+                            <div class="worker-stats-table-cell">-3%</div>
+                            <div class="worker-stats-table-cell">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="worker-stats">
+                <div class="work-space-right-header">
+                    Дисциплина 
+                </div>
+                <div class="row">
+                    <div class="worker-stats-table">
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Дата</div>
+                            <div class="worker-stats-table-cell">29.02</div>
+                            <div class="worker-stats-table-cell">28.02</div>
+                            <div class="worker-stats-table-cell">27.02</div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Приход на работу </div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text red"> +16 мин</span></div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text red"> +16 мин</span></div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text green"> +16 мин</span></div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Уход с работы</div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text red"> +16 мин</span></div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text red"> +16 мин</span></div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text green"> +16 мин</span></div>
+                        </div>
+                        <div class="worker-stats-table-col">
+                            <div class="worker-stats-table-cell">Время на работе</div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text red"> +16 мин</span></div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text red"> +16 мин</span></div>
+                            <div class="worker-stats-table-cell">08:46<span class="worker-stats-table-marker-text red"> +16 мин</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </section>
 </body>
 </html>
