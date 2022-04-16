@@ -10,6 +10,11 @@ img {
   height: 100%;
 }
 
+a {
+  color: #058DC7;
+  text-decoration: none;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +64,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   font-size: .75rem;
+  padding-right: 20px;
 }
 
 .header-login-avatar {
@@ -144,11 +150,6 @@ img {
   color: #3E3E3E;
 }
 
-.work-space .status-block-backlink-text a {
-  color: #058DC7;
-  text-decoration: none;
-}
-
 .work-space .status-block-item {
   margin-top: 25px;
 }
@@ -162,6 +163,27 @@ img {
   font-size: 25px;
   color: #000;
   margin-right: 10px;
+}
+
+.work-space .status-block-item-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work-space .status-block-item-control-icon {
+  padding: 0 5px;
 }
 
 .finder {
